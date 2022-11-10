@@ -16,30 +16,30 @@ using Express, Nodejs, MongoDB.
 - Users can delete an option -> An option can't be deleted if it has even one vote given to it.
 - Users can view a question with it's options and all the votes given to it.
 
-## Routes & URL
-
-- /questions/create : To create a new question hit the following URL with a post request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/create
-
-- /options/:id/create : To create a new option for a question hit the following URL with a post request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/options/create
-
-- /options/:id/add_vote: To increment the count of votes on an option, hit the following URL with a get request:
-  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/addVote
-
-- /questions/:id: To view a question and it’s options, hit the following URL with a get request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion
-
-- /options/:id/delete: To delete an option, hit the following URL with a delete request:
-  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/delete
-
-- /questions/:id/delete : To delete a question, hit the following URL with a delete request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
-
 ## Important Link:
 
-- Youtube Video URL:
-- Hosting Link: https://polling-api-system.herokuapp.com/
+- **Youtube Video URL**:
+- **Hosting Link**: https://polling-api-system.herokuapp.com/
+
+## Routes & URL
+
+- **/questions/create** : To create a new question hit the following URL with a post request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/create
+
+- **/options/:id/create** : To create a new option for a question hit the following URL with a post request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/options/create
+
+- **/options/:id/addVote**: To increment the count of votes on an option, hit the following URL with a get request:
+  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/addVote
+
+- **/questions/:id**: To view a question and it’s options, hit the following URL with a get request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion
+
+- **/options/:id/delete**: To delete an option, hit the following URL with a delete request:
+  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/delete
+
+- **/questions/:id/delete** : To delete a question, hit the following URL with a delete request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
 
 ## Tools Used
 
@@ -86,15 +86,32 @@ $ npm install npm -g
 
 ```
 
----
+<br/>
 
-## Install
+## To run the project on your local machine:
 
-```
-$ git clone https://github.com/kartiksarwan2017/Polling_System_API
-$ cd Polling_System_API
-$ npm install
-```
+1. Open terminal.
+
+2. Change the current working directory to the location where you want the cloned directory.
+
+   ```
+   $ git clone https://github.com/kartiksarwan2017/Polling_System_API
+
+   ```
+
+3. Install all the dependencies by running :
+
+   ```
+   npm install
+
+   ```
+
+4. Run npm start to run the project at local host, port 8000:
+
+   ```
+   $ npm start
+
+   ```
 
 ## Configuration
 
@@ -103,10 +120,3 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 - A setting
 - one more setting
 - Another one more setting
-
-## Run the project
-
-```
-$ npm start
-
-```

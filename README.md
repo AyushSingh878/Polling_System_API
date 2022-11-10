@@ -146,11 +146,11 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 ### Delete a question:
 
 <img src="/screenshots/DeleteQuestion.PNG">
-<img src="/screenshots/DeleteQuestion1.PNG">
+<img src="/screenshots/DeleteQuestion_1.PNG.PNG">
 
 ### Delete an option:
 
-<img src="/screemnshots/OptionDelete.PNG">
+<img src="/screenshots/OptionDelete_1.PNG">
 <img src="/screenshots/DeleteOption1.PNG">
 
 ### View a question with it’s options and all the votes given to it:

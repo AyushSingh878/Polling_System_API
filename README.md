@@ -22,7 +22,8 @@ using Express, Nodejs, MongoDB.
 
 - **Youtube Video URL**:
 - **Hosting Link**: https://polling-api-system.herokuapp.com/
-  <br/>
+
+<br/>
 
 ## Routes & URL
 
@@ -44,7 +45,7 @@ using Express, Nodejs, MongoDB.
 - **/questions/:id/delete** : To delete a question, hit the following URL with a delete request:
   https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
 
-  <br/>
+<br/>
 
 ## Tools Used
 
@@ -127,3 +128,34 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 - A setting
 - one more setting
 - Another one more setting
+
+## Screens
+
+<p align="justify">
+   
+### Create Question:    
+<img src="/screenshots/CreateQuestion.PNG">
+<img src="/screenshots/CreateQuestion2.PNG">
+   
+### Add options to a question:
+<img src="/screenshots/AddOptions.PNG">
+   
+### Add a vote to an option of question:    
+<img src="/screenshots/AddVotestoOption.PNG">
+
+### Delete a question:
+
+<img src="/screenshots/DeleteQuestion.PNG">
+<img src="/screenshots/DeleteQuestion1.PNG">
+
+### Delete an option:
+
+<img src="/screemnshots/OptionDelete.PNG">
+<img src="/screenshots/DeleteOption1.PNG">
+
+### View a question with it’s options and all the votes given to it:
+
+<img src="/screenshots/ViewQuestionAndItsOptions.PNG">
+
+</p>
+<br/>

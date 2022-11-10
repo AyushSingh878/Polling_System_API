@@ -16,10 +16,13 @@ using Express, Nodejs, MongoDB.
 - Users can delete an option -> An option can't be deleted if it has even one vote given to it.
 - Users can view a question with it's options and all the votes given to it.
 
+<br/>
+
 ## Important Link:
 
 - **Youtube Video URL**:
 - **Hosting Link**: https://polling-api-system.herokuapp.com/
+  <br/>
 
 ## Routes & URL
 
@@ -40,6 +43,8 @@ using Express, Nodejs, MongoDB.
 
 - **/questions/:id/delete** : To delete a question, hit the following URL with a delete request:
   https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
+
+  <br/>
 
 ## Tools Used
 
@@ -112,6 +117,8 @@ $ npm install npm -g
    $ npm start
 
    ```
+
+<br/>
 
 ## Configuration
 

@@ -1,15 +1,61 @@
 # Api-Polling-System
 
-Description :
+## Introduction
 
-1. We can create question.
-2. We can delete Question.
-3. We can view question
-4. We can create option for question
-5. We can delete option
-6. we can vote to perticular option for a perticular option
+Creating a **Polling System API** where anyone can create questions with options and also add votes to it. It is built
+using Express, Nodejs, MongoDB.
 
----
+<br/>
+
+## Features
+
+- Users can create questions (you can add as many questions as you want).
+- Users can add options to a question.
+- Users can add a vote to an option of question.
+- Users can delete a question -> A question can't be deleted if one of it's options has votes.
+- Users can delete an option -> An option can't be deleted if it has even one vote given to it.
+- Users can view a question with it's options and all the votes given to it.
+
+## Routes & URL
+
+- /questions/create : To create a new question hit the following URL with a post request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/create
+
+- /options/:id/create : To create a new option for a question hit the following URL with a post request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/options/create
+
+- /options/:id/add_vote: To increment the count of votes on an option, hit the following URL with a get request:
+  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/addVote
+
+- /questions/:id: To view a question and it’s options, hit the following URL with a get request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion
+
+- /options/:id/delete: To delete an option, hit the following URL with a delete request:
+  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/delete
+
+- /questions/:id/delete : To delete a question, hit the following URL with a delete request:
+  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
+
+## Important Link:
+
+- Youtube Video URL:
+- Hosting Link: https://polling-api-system.herokuapp.com/
+
+## Tools Used
+
+ <p align="justify">
+<img height="140" width="140" src="https://www.startechup.com/wp-content/uploads/January-11-2021-Nodejs-What-it-is-used-for-and-when-where-to-use-it-for-your-enterprise-app-development.jpg">
+<img height="140" width="140" src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png">
+<img height="140" width="140" src="https://g.foolcdn.com/art/companylogos/square/mdb.png">
+<img height="140" width="140" src="https://mms.businesswire.com/media/20210806005076/en/761650/22/postman-logo-vert-2018.jpg">
+<img height="140" width="140" src="https://www.pngitem.com/pimgs/m/13-131098_visual-studio-code-logo-hd-png-download.png">
+</p>
+
+- Version Control System: Git
+- VCS Hosting: GitHub
+- Integrated Development Environment: VSCode
+  <br/>
+  <br/>
 
 ## Requirements
 
@@ -45,8 +91,8 @@ $ npm install npm -g
 ## Install
 
 ```
-$ git clone https://github.com/ashishpal07/API-Polling-system
-$ cd Api-Polling-system
+$ git clone https://github.com/kartiksarwan2017/Polling_System_API
+$ cd Polling_System_API
 $ npm install
 ```
 

@@ -28,22 +28,22 @@ using Express, Nodejs, MongoDB.
 ## Routes & URL
 
 - **/questions/create** : To create a new question hit the following URL with a post request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/create
+  \ https://polling-api-system.herokuapp.com/api/v1/questions/create
 
 - **/options/:id/create** : To create a new option for a question hit the following URL with a post request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/options/create
+  \ https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/options/create
 
 - **/options/:id/addVote**: To increment the count of votes on an option, hit the following URL with a get request:
-  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/addVote
+  \ https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/addVote
 
 - **/questions/:id**: To view a question and it’s options, hit the following URL with a get request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion
+  \ https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion
 
 - **/options/:id/delete**: To delete an option, hit the following URL with a delete request:
-  https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/delete
+  \ https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/delete
 
 - **/questions/:id/delete** : To delete a question, hit the following URL with a delete request:
-  https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
+  \ https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
 
 <br/>
 

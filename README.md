@@ -27,25 +27,28 @@ using Express, Nodejs, MongoDB.
 
 ## Routes & URL
 
-- **/questions/create** : <p> To create a new question hit the following URL with a post request:</p>
+- **/questions/create**
+  <p> To create a new question hit the following URL with a post request:</p>
   https://polling-api-system.herokuapp.com/api/v1/questions/create
 
-- **/options/:id/create** : <p>To create a new option for a question hit the following URL with a post request:</p>
-
+- **/options/:id/create**
+  <p>To create a new option for a question hit the following URL with a post request:</p>
   https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/options/create
 
-- **/options/:id/addVote**: <p>To increment the count of votes on an option, hit the following URL with a get request:</p>
+- **/options/:id/addVote**
+  <p>To increment the count of votes on an option, hit the following URL with a get request:</p>
   https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/addVote
 
-- **/questions/:id**: <p> To view a question and it’s options, hit the following URL with a get request:</p>
-
+- **/questions/:id**
+  <p> To view a question and it’s options, hit the following URL with a get request:</p>
   https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion
 
-- **/options/:id/delete**: <p> To delete an option, hit the following URL with a delete request: </p>
-
+- **/options/:id/delete**
+  <p> To delete an option, hit the following URL with a delete request: </p>
   https://polling-api-system.herokuapp.com/api/v1/options/:idOfOption/delete
 
-- **/questions/:id/delete** : <p> To delete a question, hit the following URL with a delete request: </p>
+- **/questions/:id/delete**
+  <p> To delete a question, hit the following URL with a delete request: </p>
   https://polling-api-system.herokuapp.com/api/v1/questions/:idOfQuestion/delete
   <br/>
 
@@ -148,7 +151,7 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 ### Delete a question:
 
 <img src="/screenshots/DeleteQuestion.PNG">
-<img src="/screenshots/DeleteQuestion_1.PNG.PNG">
+<img src="/screenshots/DeleteQuestion_1.PNG">
 
 ### Delete an option:
 
